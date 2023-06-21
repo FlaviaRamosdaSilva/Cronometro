@@ -15,13 +15,15 @@ body {
     background-position: center top;
     color: #ffffff;
     font-size: 100px;
+    text-align: center;
 
-    
 }
+
 h2 {
     font-family: clockicons, sans-serif;
     opacity: 1.0;
-    -webkit-text-stroke-width: 5px; /* largura da borda */
+    -webkit-text-stroke-width: 5px;
+    /* largura da borda */
     -webkit-text-stroke-color: #000;
 
 }
@@ -31,7 +33,8 @@ section {
     position: absolute;
     align-items: center;
     color: #142272;
-    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-width: 2px;
+    /* largura da borda */
     -webkit-text-stroke-color: #000;
 }
 
@@ -48,5 +51,5 @@ button {
 @media (min-width: 900px) {
     body {
         background-size: cover;
-}
+    }
 }
