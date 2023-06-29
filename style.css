@@ -46,10 +46,42 @@ button {
     -webkit-text-stroke-width: none;
 }
 
+h1 {
+    margin-top: 60px;
+}
+
 
 
 @media (min-width: 900px) {
     body {
         background-size: cover;
     }
+
+}
+@media (max-width: 900px) {
+    h1, h2 {
+        font-size: 37px;
+        -webkit-text-stroke-width:none;
+    }
+button {
+    width: 100px;
+    font-size: 20px;
+}
+section {
+    width: 100%;                                        
+    position: absolute;
+    color: #142272;
+    -webkit-text-stroke-width: 2px;
+    /* largura da borda */
+    -webkit-text-stroke-color: #000;
+}
+
+.botao {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}
+
 }
